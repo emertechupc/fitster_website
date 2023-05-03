@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitster | NexGenius</title>
+
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" href="/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS always are the last items before closing the head tag -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2 fw-bold" href="#">Fitster</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#main-page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#partners">Partners</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="main-page" class="d-flex flex-column flex-md-row my-4 p-3 align-items-center justify-content-center">
+    <div class="md:w-1/2 mb-4 mb-md-0 me-md-4 d-flex">
+      <div class="md:w-3/4 mx-auto">
+        <span class="fs-1 fw-bolder d-block">Trying clothes on was never easier</span>
+        <div class="d-flex flex-column mt-4 align-items-center">
+          <div class="fs-4 fw py-1 mb-3">
+            With the right tools, your clients can have the best experience using a fitting room!
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="md:w-1/2">
+      <img class="w-100 rounded-3" src="/img/main-page.webp" alt="Two guys programming" />
+    </div>
+  </section>
+
+  <section id="about-us" class="p-3 my-4">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-12 col-lg-6 mb-6 mb-lg-0">
+        <img class="img-fluid rounded-3" src="/img/team-photo.webp" alt="Group's photo">
+      </div>
+      <div class="col-12 col-lg-6 col-xl-5">
+        <div class="mb-4">
+          <p class="lead">About us</p>
+          <h2>Creating software and new experiences</h2>
+        </div>
+        <div class="d-flex flex-column justify-content-start">
+          <div class="mb-3 me-4">
+            <div class="d-flex align-items-center">
+              <div class="badge-primary-soft rounded p-1">
+                <svg class="feather feather-check" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <p class="mb-0 ms-3">Information security</p>
+            </div>
+          </div>
+          <div class="mb-3 me-4">
+            <div class="d-flex align-items-center">
+              <div class="badge-primary-soft rounded p-1">
+                <svg class="feather feather-check" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <p class="mb-0 ms-3">IoT Solutions</p>
+            </div>
+          </div>
+          <div class="mb-3 me-4">
+            <div class="d-flex align-items-center">
+              <div class="badge-primary-soft rounded p-1">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" class="feather feather-check">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <p class="mb-0 ms-3">Powered by Artificial Intelligence</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6 col-xxl-5 text-center mb-3">
+          <h6 class="fw-bold fs-4 display-3 lh-sm mb-3">Pricing</h6>
+        </div>
+      </div>
+      <div class="row flex-center space-y-4 lg:space-y-0">
+        <div class="col-lg-4">
+          <div class="card shadow-lg border-0 h-100">
+            <div class="card-header border-bottom-0 pt-5 pb-5">
+              <div class="d-flex justify-content-center">
+                <h1 class="fw-bold">$500</h1>
+                <span class="d-flex align-items-center">/year</span>
+              </div>
+              <h5 class="fw-bold text-center">Basic</h5>
+            </div>
+            <div class="card-body mx-auto d-flex flex-column">
+              <ul class="list-unstyled mb-4">
+                <li class="text-700 py-2 text-secondary">Feature 1</li>
+                <li class="text-700 py-2 text-secondary">Feature 2</li>
+                <li class="text-700 py-2 text-secondary">Feature 3</li>
+              </ul>
+              <div class="d-flex flex-column mt-auto">
+                <a class="btn btn-lg btn-primary rounded-pill mb-3 w-100" href="#">
+                  Start Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card shadow-lg border-0 h-100">
+            <div class="card-header border-bottom-0 pt-5 pb-5">
+              <div class="d-flex justify-content-center">
+                <h1 class="fw-bold">$1000</h1>
+                <span class="d-flex align-items-center">/year</span>
+              </div>
+              <h5 class="fw-bold text-center">Pro</h5>
+            </div>
+            <div class="card-body mx-auto d-flex flex-column">
+              <ul class="list-unstyled mb-4">
+                <li class="text-700 py-2 text-secondary">Feature 1</li>
+                <li class="text-700 py-2 text-secondary">Feature 2</li>
+                <li class="text-700 py-2 text-secondary">Feature 3</li>
+              </ul>
+              <div class="d-flex flex-column mt-auto">
+                <a class="btn btn-lg btn-primary rounded-pill mb-3 w-100" href="#">
+                  Start Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card shadow-lg border-0 h-100">
+            <div class="card-header border-bottom-0 pt-5 pb-5">
+              <div class="d-flex justify-content-center">
+                <h1 class="fw-bold">$2000</h1>
+                <span class="d-flex align-items-center">/year</span>
+              </div>
+              <h5 class="fw-bold text-center">Exclusive</h5>
+            </div>
+            <div class="card-body mx-auto d-flex flex-column">
+              <ul class="list-unstyled mb-4">
+                <li class="text-700 py-2 text-secondary">Feature 1</li>
+                <li class="text-700 py-2 text-secondary">Feature 2</li>
+                <li class="text-700 py-2 text-secondary">Feature 3</li>
+              </ul>
+              <div class="d-flex flex-column mt-auto">
+                <a class="btn btn-lg btn-primary rounded-pill mb-3 w-100" href="#">
+                  Start Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="partners" class="slider-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>
+            Trusted by the World's Best Companies
+          </h4>
+          <hr class="section-divider" />
+          <div class="slider-container">
+            <div class="swiper-container image-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img class="img-fluid" src="/img/customer-logo-1.webp" alt="Adidas" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="img-fluid" src="/img/customer-logo-2.webp" alt="Chanel" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="img-fluid" src="/img/customer-logo-3.webp" alt="Gucci" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="img-fluid" src="/img/customer-logo-4.webp" alt="Jordan" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="img-fluid" src="/img/customer-logo-5.webp" alt="Prada" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="img-fluid" src="/img/customer-logo-6.webp" alt="Tommy Hilfiger" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-us">
+    <div class="container my-5">
+      <div class="text-center">
+        <p class="lead">Contact Us</p>
+        <h2 class="fw-bold">Feel Free to Contact Us</h2>
+      </div>
+      <div class="row my-4">
+        <div class="col-lg-4">
+          <div class="card shadow-lg border-0 h-100">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex align-items-center">
+                <div class="badge bg-secondary me-2">
+                  <svg fill="none" viewBox="0 0 24 24" width="24" height="24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                  </svg>
+                </div>
+                <span class="fw-bold fs-5">Mail Us</span>
+              </div>
+              <a href="mailto:nexgenius@dalbitresb.com" class="mt-4">
+                <span>nexgenius@dalbitresb.com</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card shadow-lg border-0 h-100">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex align-items-center">
+                <div class="badge bg-secondary me-2">
+                  <svg fill="none" viewBox="0 0 24 24" width="24" height="24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                  </svg>
+                </div>
+                <span class="fw-bold fs-5">Call Us</span>
+              </div>
+              <a href="tel:+51999999999" class="mt-4">
+                <span>+51 999 999 999</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card shadow-lg border-0 h-100">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex align-items-center">
+                <div class="badge bg-secondary me-2">
+                  <svg fill="none" viewBox="0 0 24 24" width="24" height="24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                  </svg>
+                </div>
+                <span class="fw-bold fs-5">Visit Us</span>
+              </div>
+              <span class="mt-4">Lorem Ipsum Avenue</span>
+              <span>Lima, Peru</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts always are the last items before closing the body tag -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.3/swiper-bundle.min.js"
+    integrity="sha512-dLuSIV553xT28AiFViM1ZQdOlyts81E3xiQvfiltddvQ0RViD99nY8sNlRx5o/9J18BYoRQV+PHo9dGWRv3vjA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
